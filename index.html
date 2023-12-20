@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>आदित्य</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="/" class="link">आदित्य</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Aditya Raj.</span></h1>
+        <h2 class="about__role">A Software Enginner.</h2>
+        <p class="about__desc">
+          I am a self-taught programmer who believes in lifelong learning. I am
+          very passionate about being a web developer. Being a web developer
+          allows me to blend my creativity with my technical skills, enabling me
+          to bring ideas to life in the digital realm. I love the process of
+          turning a concept or design into a fully functional website, carefully
+          crafting the user experience and ensuring that every element works
+          seamlessly together.
+        </p>
+
+        <div class="about__contact center">
+          <!-- <a
+            href="https://drive.google.com/file/d/1JDLgPIU4IAqn-ISC2vJxnAzGXbyuI4s7/view?usp=sharing"
+            target="_blank"
+          >
+            <span class="btn btn--outline">Resume</span>
+          </a> -->
+
+          <a
+            href="https://github.com/aditya11900"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/adityaraj-dev/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Backery Store</h3>
+            <p class="project__description">
+              It is a web application for bakery products, featuring a user-friendly interface. The application allows users to easily add items to their cart and proceed to checkout .
+            </p>
+            <p></p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com/aditya11900/Backery-App-ReactJs-.git"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://backery-app-react-1l9aouxl7-aditya-rajs-projects-b96b2c32.vercel.app"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Unique PassWord Generator</h3>
+            <p class="project__description">
+              It is a unique password generator web application, providing users with the flexibility to choose password length and type. The application simplifies the process of creating secure passwords while offering a seamless user experience. Additionally, users can easily copy generated passwords for enhanced convenience.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Reactjs</li>
+              <li class="project__stack-item">Tailwind</li>
+            </ul>
+
+            <a
+              href="https://github.com/aditya11900/Password-Grnerator-App.git"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://password-grnerator-app.vercel.app/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Education WebApp</h3>
+            <p class="project__description">
+              This user-friendly platform allows visitors to choose their desired course and select specific subjects of interest. Additionally, users can conveniently provide their contact information for further engagement
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">JavaScript</li>
+            </ul>
+
+            <a
+              href="https://github.com/aditya11900/education-page"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://aditya11900.github.io/education-page/"
+              aria-label="live preview"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">Redux</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">Tailwind</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">Problem Solving</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:adityaraj153566@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/aditya11900" class="link footer__link">
+        @Aditya Raj
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
